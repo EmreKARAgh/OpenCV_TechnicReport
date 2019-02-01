@@ -1,0 +1,240 @@
+# OpenCV_TechnicReport
+İncludes Python and OpenCV tutorials
+
+
+:imagesdir: images
+
+= H1 Örnek Başlık
+
+== H2 Örnek Başlık
+
+
+=== Lisans Türleri
+
+* GPL(GNU General Public License)
+* LGPL
+* BSD
+* Shareware
+* Freeware
+
+=== En Çok Kullanılan Linux Dağıtımları
+
+. Android 
+. Debian
+. Linux Mint
+. Ubuntu
+. openSUSE
+. CentOS
+. Scientific Linux (Bilimsel Linux)
+. Arch Linux
+. Elementary OS
+. Solus
+. Chrome OS
+
+=== Admonition
+
+
+.Uyarı
+[WARNING]
+====
+Burası bir uyarı bloğu
+====
+
+.İpucu
+[TIP]
+====
+Burası bir ipucu bloğu
+====
+
+.Dikkat
+[CAUTION]
+====
+Burası bir dikkat bloğu
+====
+
+=== Links
+
+.External
+
+http://asciidoctor.org - automatic!
+
+http://asciidoctor.org[Asciidoctor]
+
+https://github.com/asciidoctor[Asciidoctor @ *GitHub*]
+
+.With spaces and special characters
+
+link:++http://example.org/?q=[a b]++[URL with special characters]
+
+link:http://example.org/?q=%5Ba%20b%5D[URL with special characters]
+
+.Windows path
+
+link:\\server\share\whitepaper.pdf[Whitepaper]
+
+.Relative
+
+link:index.html[Docs]
+
+.Email and IRC
+
+devel@discuss.arquillian.org
+
+mailto:devel@discuss.arquillian.org[Discuss Arquillian]
+
+mailto:devel-join@discuss.arquillian.org[Subscribe, Subscribe me, I want to join!]
+
+irc://irc.freenode.org/#asciidoctor
+
+.Link with attributes
+
+http://discuss.asciidoctor.org[Discuss Asciidoctor, role="external", window="_blank"]
+
+http://discuss.asciidoctor.org[Discuss Asciidoctor^]
+
+http://example.org["Google, Yahoo, Bing^", role="teal"]
+
+
+=== Images
+
+.Diabi App
+[#img-sunset]
+[caption="Figure 1: ",link=https://play.google.com/store/apps/details?id=com.diabi.humegames.diabi]
+image::logo512.png[]
+
+image::IMG-WA0004.jpg[Sunset]
+
+.Inline
+
+Click image:emoji2.png[Kalpli, 32 , 32 ,title="Kalpli"] to get the party started.
+
+Click image:emoji4.png[32 , 32 , title="Kızgın"] when you need a break.
+
+.Inline image with positioning role
+
+image:sitebg2.png[Sunset,150,150,role="right"] What a beautiful gradient background!
+
+
+=== Videos
+
+.Embedded Youtube video
+
+video::gaEczAMS_94[youtube]
+
+.Main.h
+[source,c++]
+----
+
+ try {
+			cv::Size newSize = cv::Size(newWidth, newHeight);
+			
+			Mat newImg = Mat::zeros(newSize, img.type());
+
+		
+			int imgX, imgY;
+
+			for (int i = 0; i <newHeight; i++) {
+				for (int j = 0; j <newWidth; j++) {
+
+					imgX = (int)(round(((float)j) / (float)newWidth * (float)img.cols));
+					imgY = (int)(round(((float)i) / (float)newHeight * (float)img.rows));
+					imgX = min(imgX, img.cols - 1);
+					imgY = min(imgY, img.rows - 1);
+
+					cv::Vec3b myVec = img.at<cv::Vec3b>(imgY, imgX);
+					uchar tempR = myVec[2];
+					uchar tempG = myVec[1];
+					uchar tempB = myVec[0];
+					cv::Vec3b newPoint(tempB, tempG, tempR);
+					newImg.at<cv::Vec3b>(i, j) = newPoint;
+				}
+			}
+			//imshow("resized", newImg);
+			img = newImg.clone();
+			tempImg = img.clone();
+			MatToPictureBox(img);
+			addToHistory(img);
+			//DrawCVImage(pictureBox1, img);
+			//imshow("resized image", img);
+			
+		}
+		catch (System::Exception ^e) {
+			MessageBox::Show("Boyut değiştirilemedi", "Hata", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		}
+	 
+
+----
+
+
+.Script.sh
+[source,bash]
+----
+
+#!/bin/bash
+
+clear # Ekran temizleniyor..
+
+# Burada ilk echo komutumuz oluşturuluyor..
+echo "Burası ilk echo komutu başlangıcı.."
+
+# Burada kullanıcı adımız ile karşılanıyoruz..
+echo "Merhaba $USER"
+
+dizi=(bir iki üç dört beş) # burada bir dizi tanımlanıyor..
+
+echo ${dizi[*]}
+
+echo
+
+echo "Oluşturulan dizi unset ediliyor...."
+
+sleep 3 # 3 saniyelik bir beklem süresi belirleniyor..
+
+unset dizi
+
+echo "Dizi unset edildi....."
+
+# Script sonu...
+
+----
+
+=== AutoGraders Tablosu
+
+.Karşılaştırma
+[options="header,footer"]
+|=======================
+|İsimler|Desteklenen Dil|Ücret |Lisans | Güvenlik | Web Desteği
+|
+AutoGrader    |Hepsi     |Free |  | Yok | Sorunlu |
+AutoGrader 2  |C/C++     |Free |OpenSource | Yok | Yok|
+AutoGrader 3  |Phyton/C++/Java|Free|OpenSource|Yok|Yok|
+VPL for Moodle|Hepsi | Free |OpenSource|Var|Var|
+
+|=======================
+
+
+=== Başlıklar
+
+.Inline anchors
+
+[[bookmark-a]]Inline anchors make arbitrary content referenceable.
+
+[#bookmark-b]#Inline anchors can be applied to a phrase like this one.#
+
+anchor:bookmark-c[]Use a cross reference to link to this location.
+
+[[bookmark-d,last paragraph]]The xreflabel attribute will be used as link text in the cross-reference link.
+
+.Internal cross references
+
+See <<Links>> to learn how to write paragraphs.
+
+Learn how to organize the document into <<section-titles,Admonition>>.
+
+.Inter-document cross references
+
+Refer to <<Readme.adoc#section-b,Readme>> for more information.
+
+See you when you get back from <<Readme.adoc#section-b,Readme>>!
+
+
