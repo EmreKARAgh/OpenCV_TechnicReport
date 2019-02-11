@@ -1,3 +1,5 @@
+:imagesdir: images
+
 OpenCV ve Numpy kütüphanelerini daha önceden kurmuş olduğumuz PyCharm IDE içerisinden projemize ekleyeceğiz.
 
 
