@@ -1,3 +1,5 @@
+:imagesdir: images
+
 https://www.jetbrains.com/pycharm/[*PyCharm*] adresine girip PyCharm IDE  indirilir.
 
 
