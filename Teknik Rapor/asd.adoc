@@ -1,5 +1,5 @@
 = Windows'da OpenCV-Python Teknik Raporu
-
+:imagesdir:images/
 {nbsp} +
 {nbsp} +
 {nbsp} +
