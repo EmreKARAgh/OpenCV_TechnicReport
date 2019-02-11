@@ -1,0 +1,55 @@
+=== Resimlerle Temel İşlemler
+
+==== Hedefler
+
+* Bir resim dosyasını ; okumak, ön izlemek ve tekrar kayıt etmek
+
+* *cv2.imread()*, *cv2.imshow()*, *cv2.imwrite()*, *cv2.moveWindows()*, *cv2.waitKey()* metodlarını kullanmak.
+
+[source,Python]
+----
+#Yuklenen opencv modulunu projeye ekler.
+import cv2
+
+#Cift tırnaklar arasında verilen adresteki dosyayı BGR renk formatında okur ve eşitlenen değere atar
+img = cv2.imread("butterfly.jpg") <1>
+
+#Eklenen resim dosyasını cift tırnaklar arasında yazan isimle olusturdugu pencerede gosterir. Yolu bulamazsa boş bir pencere gösterecektir.
+cv2.imshow("MyImage", img) <2>
+
+#Acılan resim pencerelerini ekranda konumlandırmanıza yarar, cift tırnaklar arasındaki ifade yukaridakinden farklı olursa calismaz. hata vermez.
+cv2.moveWindow("MyImage", 0,0)
+
+#Verilen parametreyle resim dosyasını GRAY olarak tek kanalli okur
+gray = cv2.imread("butterfly.jpg",0) <3>
+cv2.imshow("GRAY", gray)
+cv2.moveWindow("GRAY", 0,(len(gray)+30))
+
+#Resmi diskte verilen yola yazar
+cv2.imwrite("butterfly.png",img);
+
+# Programı sonlandırmadan once parantezler icerisindeki milisaniye kadar bekler. '0' degeri girlirse surekli bekler.
+cv2.waitKey(0)
+----
+<1> Okuma Modları (Resim1)
+<2> Renkli Okuma (Resim2)
+<3> Gri okuma (Resim3)
+
+
+{nbsp} +
+
+image::Temelislemler3.png[]
+[.text-center]
+*Resim1*
+
+{nbsp} +
+
+image::Temelislemler1.png[]
+[.text-center]
+*Resim2*
+
+{nbsp} +
+
+image::Temelislemler2.png[]
+[.text-center]
+*Resim3*

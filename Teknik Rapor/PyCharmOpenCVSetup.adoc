@@ -1,0 +1,38 @@
+OpenCV ve Numpy kütüphanelerini daha önceden kurmuş olduğumuz PyCharm IDE içerisinden projemize ekleyeceğiz.
+
+
+    File-> Settings-> Project-> Project Interpreter
+    
+image::OpenCVSetup1.png[]
+
+{nbsp} +
+
+Açılan pencerede sağ üstte bulunan *+* butonuna tıklıyoruz
+
+image::OpenCVSetup2.png[]
+
+{nbsp} +
+
+*opencv-python* , *numpy* paketlerini *install package* butonuyla projemize ekleyebiliriz.
+
+image::OpenCVSetup3.png[]
+
+image::OpenCVSetup4.png[]
+
+{nbsp} +
+
+Başarıyla eklenip eklenmediğini yeni bir *Python File* açıp içerisine aşağıdaki kodları yazıp çalıştırarak test edebiliriz 
+
+[source,python]
+----
+import cv2
+import numpy
+
+print("Numpy sürümü: ",numpy.version.version)
+print("OpenCV sürümü: ",cv2.getVersionString())
+----
+
+Bendeki çıktılar aşağıdaki gibidir ve anlatımlar bu sürümler üzerinden yapılacaktır.
+
+    Nump sürümü:    1.16.1
+    OpenCV sürümü:  4.0.0
