@@ -1,5 +1,5 @@
 = Windows'da OpenCV-Python Teknik Raporu
-:imagesdir:images/
+:imagesdir: images
 {nbsp} +
 {nbsp} +
 {nbsp} +
@@ -24,7 +24,6 @@
 {nbsp} +
 {nbsp} +
 
-:imagesdir:images/
 
 === İçindekiler
 . <<OpenCVGiris,OpenCV'ye Giriş>>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
