@@ -1,0 +1,168 @@
+= Windows'da OpenCV-Python Teknik Raporu
+
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+
+[.text-center]
+*Muhammed Emre KARA* +
+10 Şubat, 2019
+
+<<<
+
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+
+=== İçindekiler
+. <<OpenCVGiris,OpenCV'ye Giriş>>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[.text-right]
+3
+. <<TemelIslemler,Temel İşlemler>>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[.text-right]
+3
+. <<OpenCVGoruntuIsleme,OpenCV ile Görüntü İşleme>> . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[.text-right]
+3
+. <<OzellikTespiti,Özellik Tespiti>>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[.text-right]
+3
+. <<VideoAnalizi,Video Analizi>>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[.text-right]
+3
+. <<Camera,Camera Calibration and 3D Reconstruction>>. . . . . . . . . . .
+[.text-right]
+3
+. <<MakineOgrenmesi,Makine Öğrenmesi>>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[.text-right]
+3
+. <<CompPhoto,Computational Photography>>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[.text-right]
+3
+. <<NesneTanima,Nesne Tanıma>>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[.text-right]
+3
+. <<OpenCVBind,OpenCV-Python Bindings>>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[.text-right]
+3
+
+<<<
+
+[#OpenCVGiris]
+== OpenCV'ye Giriş
+* <<OpenCVHakkinda,OpenCV Hakkında>> +
+
+image::OpenCV_Logo.png[OpenCV,300]
+
+{empty} +
+{empty} +
+
+
+* <<PythonPyCharmKurulum,Windows 10'da Python3 ve PyCharm IDE kurulumu>> +
+
+image::python.png[OpenCV,600]
+
+{empty} +
+
+* <<win10kurulum,Windows 10'da OpenCV kurulumu>> +
+
+image::logo_win10.png[win10,300]
+
+<<<
+
+[#OpenCVHakkinda]
+=== OpenCV Hakkında
+
+include::OpenCVHakkinda.adoc[]
+
+<<<
+
+[#PythonPyCharmKurulum]
+=== Windows Ortamında Python ve PyCharm Kurulumu
+
+include::PythonPyCharmKurulumu.adoc[]
+
+<<<
+
+[#win10kurulum]
+=== Windows Ortamında PyCharm içerisinde openCV kurulumu
+{empty} +
+
+{empty} +
+{empty} +
+
+<<<
+
+=== Kütüphanelerin Kurulumu 
+{empty} +
+{empty} +
+{empty} +
+
+<<<
+
+[#TemelIslemler]
+== Temel İşlemler 
+{empty} +
+{empty} +
+{empty} +
+
+[#OpenCVGoruntuIsleme]
+== OpenCV ile Görüntü İşleme
+{empty} +
+{empty} +
+{empty} +
+
+[#OzellikTespiti]
+== Özellik Tespiti
+{empty} +
+{empty} +
+{empty} +
+
+[#VideoAnalizi]
+== Video Analizi
+{empty} +
+{empty} +
+{empty} +
+
+[#Camera]
+== Camera Calibration and 3D Reconstruction
+{empty} +
+{empty} +
+{empty} +
+
+[#MakineOgrenmesi]
+== Makine Öğrenmesi
+How To 
+{empty} +
+{empty} +
+{empty} +
+
+[#CompPhoto]
+== Computational Photography
+{empty} +
+{empty} +
+{empty} +
+
+[#NesneTanima]
+== Nesne Tanıma
+{empty} +
+{empty} +
+{empty} +
+
+[#OpenCVBind]
+== OpenCV-Python Bindings 
+{empty} +
+{empty} +
+{empty} +
+
+
