@@ -24,6 +24,8 @@
 {nbsp} +
 {nbsp} +
 
+:imagesdir:images/
+
 === İçindekiler
 . <<OpenCVGiris,OpenCV'ye Giriş>>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 [.text-right]
