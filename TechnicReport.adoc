@@ -62,7 +62,7 @@
 == OpenCV'ye Giriş
 * <<OpenCVHakkinda,OpenCV Hakkında>> +
 
-image::OpenCV_Logo.png[OpenCV,300]
+image::images/OpenCV_Logo.png[OpenCV,300]
 
 {empty} +
 {empty} +
