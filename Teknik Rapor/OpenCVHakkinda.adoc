@@ -1,3 +1,4 @@
+:imagesdir: images
 OpenCV, ilk olarak 1999 yılında Intel’in Rusya’daki laboratuvarlarında geliştirilmeye başlanılmış bir projedir. İlk zamanlarda, gerçek zamanlı ışın izleme ve 3D ekran duvarları da dahil olmak üzere bir dizi projenin bir parçası olan CPU'lu uygulamaları geliştirmek, bilgisayar görme uygulamaları için ortak bir altyapı sağlayarak ve ticari ürünlerde makine algısının kullanımını hızlandırmak için oluşturulmuştur.
 
 OpenCV nin en büyük avantajlarından bir tanesi açık kodlu bir  kütüphane olmasıdır. Bu özelliğinden dolayı  algoritmaların üzerinde değişiklikler yapılarak geliştirilebilir. Ayrıca, BSD lisansı altında dağıtılmaktadır. BSD lisanslı bir ürün olan OpenCV, işletmelerin kodu kullanmasını ve değiştirmesini kolaylaştırır.
