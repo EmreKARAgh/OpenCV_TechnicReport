@@ -4,7 +4,7 @@
 
 * Bir imaj üzerindeki belirgin hatları ve kenarları ön plana çıkarmak
 
-* *cv2.imread()*, *cv2.imshow()*, *cv2.imwrite()*, *cv2.moveWindows()*, *cv2.waitKey()* metodlarını kullanmak.
+* *cv2.sobel*, *cv2.laplacian()* metodlarını kullanmak.
 
 [source,Python]
 ----
