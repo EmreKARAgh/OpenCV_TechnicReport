@@ -1,0 +1,28 @@
+:imagesdir: images
+https://www.opencv.org[*opencv.org*] adresine girip Python3 sürümünü indirilir.
+
+
+
+image::pythonDownload.png[OpenCV]
+
+{empty} +
+
+
+Altta yer alan seçneklerin her ikisininde seçilmesi daha sorunsuz bir kurulum için faydalı olabilir.
+
+image::pythonSetup1.png[OpenCV]
+
+{empty} +
+
+Kurulum tamamlandıktan sonra *cmd.exe* açılıp *Python* kurulumunu test edebiliriz. + 
+
+Kurulumun başarıyla tamamlanması halinde açılan komut satırına "Python" yazıp Python sürümünü görebilir ve Python kodlamaya başlayabilirsiniz.
+
+image::pythonSetup2.png[OpenCV]
+
+{empty} +
+
+Daha sonra kodlarımızı geliştireceğimiz *PyCharm* ortamının kurulumuna geçebiliriz. +
+
+WARNING: Dökümanda yer alan görseller temsilidir. Rehber Python 3.6.4 sürümü için hazırlanmıştır.
+

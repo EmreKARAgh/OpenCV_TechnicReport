@@ -1,0 +1,27 @@
+:imagesdir: images
+https://www.jetbrains.com/pycharm/[*PyCharm*] adresine girip PyCharm IDE  indirilir.
+
+
+
+
+image::pyCharmDownload.png[200,400]
+
+Ücretsiz olan community sürümü bizim rehberimiz için yeterli olacaktır. +
+
+image::pyCharmDownload2.png[OpenCV]
+{empty} +
+
+İndirilen dosyayı açıp kuruluma başlayabiliriz.
+
+
+image::pyCharmSetup.png[OpenCV]
+
+{empty} +
+
+
+Kurulumun başarıyla tamamlanması halinde devam edebiliriz.
+
+
+
+WARNING: Dökümanda yer alan görseller temsilidir. Rehber PyCharm Community 3.3 sürümü için hazırlanmıştır.
+
